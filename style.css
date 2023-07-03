@@ -1,0 +1,131 @@
+body {
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex: 1 0 300px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.box img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .box {
+    flex-basis: 100%;
+  }
+}
+
+
+
+/*contact me css */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.registration-form {
+  background-image: linear-gradient(to right bottom, #6b6bd1, #906ccc, #ac6fc6, #c374bf, #d57ab8, #e37daf, #ee81a6, #f7879d, #ff8a8d, #ff907d, #ff996d, #fba35f);
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  .registration-form {
+    width: 100%;
+  }
+}
+
+.footer-bg {
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+
+/*about me css*/
+
+h1 {
+  margin: 0;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.about-img {
+  max-width: 100%;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.about-me-content {
+  max-width: 600px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  img {
+    margin-bottom: 20px;
+  }
+}
